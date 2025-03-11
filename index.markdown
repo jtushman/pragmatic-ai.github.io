@@ -11,6 +11,16 @@
 - Consider explainability as a primary feature, not a nice-to-have
 - Balance performance with transparency appropriately
 
+### Security by Design
+- Build security considerations into AI systems from the ground up
+- Protect against adversarial attacks, data poisoning, and prompt injection
+- Implement proper authentication and authorization for AI services
+
+### Principle of Least Privilege
+- AI systems should only access data and systems absolutely necessary
+- Minimize potential damage from security compromises
+- Compartmentalize access based on specific functions
+
 ### Start Simple, Iterate Often
 - Begin with the simplest solution that could possibly work
 - Add complexity only when simpler approaches prove insufficient
@@ -45,21 +55,6 @@
 - Design AI systems with appropriate human supervision at critical decision points
 - Create clear escalation paths for uncertain or high-stakes decisions
 - Maintain human accountability for AI-assisted outcomes
-
-### Automation with Purpose
-- Automate the right things—those that computers do better than humans
-- Avoid automating tasks simply because it's possible
-- Focus on high-impact, repetitive tasks for automation
-
-### Security by Design
-- Build security considerations into AI systems from the ground up
-- Protect against adversarial attacks, data poisoning, and prompt injection
-- Implement proper authentication and authorization for AI services
-
-### Principle of Least Privilege
-- AI systems should only access data and systems absolutely necessary
-- Minimize potential damage from security compromises
-- Compartmentalize access based on specific functions
 
 ### Graceful Handoff
 - Build mechanisms for AI systems to escalate decisions to humans when needed
