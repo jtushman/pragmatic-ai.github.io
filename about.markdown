@@ -1,18 +1,23 @@
 ---
-layout: page
+layout: custom
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About Pragmatic AI
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Pragmatic AI is a set of principles for building effective, reliable, and ethical AI systems. These principles are inspired by the Pragmatic Programming movement and extend those ideas to the world of artificial intelligence and machine learning.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Our Mission
 
+Our mission is to promote a practical, value-driven approach to AI development that prioritizes:
 
-[jekyll-organization]: https://github.com/jekyll
+- Real business value over technical novelty
+- Explainability and transparency
+- Security and ethical considerations
+- Simplicity and iterative development
+- Human oversight and accountability
+
+## Get Involved
+
+We welcome contributions and discussions around these principles. Visit our [GitHub repository](https://github.com/pragmatic-ai/pragmatic-ai.github.io) to get involved.

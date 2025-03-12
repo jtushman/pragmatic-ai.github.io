@@ -1,3 +1,6 @@
+---
+layout: custom
+---
 # Pragmatic AI - Core Principles
 *Version 0.0.1*
 
