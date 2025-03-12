@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Favicon Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    canvas {
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+    .instructions {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Favicon Generator for "p/"</h1>
+  <div class="instructions">
+    <p>This page will generate a favicon with "p/" text. Click the button below to generate and download the favicon.</p>
+  </div>
+  
+  <canvas id="favicon" width="32" height="32"></canvas>
+  <br>
+  <button id="download">Download Favicon</button>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const canvas = document.getElementById('favicon');
+      const ctx = canvas.getContext('2d');
+      
+      // Draw background
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, 32, 32);
+      
+      // Draw text
+      ctx.fillStyle = '#333333';
+      ctx.font = 'bold 24px Roboto, Arial, sans-serif';
+      ctx.fillText('p/', 4, 24);
+      
+      // Set up download
+      document.getElementById('download').addEventListener('click', function() {
+        const link = document.createElement('a');
+        link.download = 'favicon.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+      
+      // Draw the favicon immediately
+      drawFavicon();
+    });
+    
+    function drawFavicon() {
+      const canvas = document.getElementById('favicon');
+      const ctx = canvas.getContext('2d');
+      
+      // Clear canvas
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, 32, 32);
+      
+      // Draw text
+      ctx.fillStyle = '#333333';
+      ctx.font = 'bold 24px Roboto, Arial, sans-serif';
+      ctx.fillText('p/', 4, 24);
+    }
+  </script>
+</body>
+</html>

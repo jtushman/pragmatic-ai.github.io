@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&amp;display=swap');
+    text {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+      font-size: 24px;
+      fill: #333333;
+    }
+  </style>
+  <rect width="32" height="32" rx="4" fill="#ffffff"/>
+  <text x="5" y="24">p/</text>
+</svg>
