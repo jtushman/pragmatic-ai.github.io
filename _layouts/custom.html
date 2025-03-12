@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: site.github.repository_name }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 {% seo %}
     <style>
       body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
         line-height: 1.6;
         color: #333;
         max-width: 800px;
@@ -31,6 +35,10 @@
       h1 {
         margin: 0;
         font-size: 2em;
+        font-weight: 500;
+      }
+      h2, h3, h4 {
+        font-weight: 500;
       }
       .github-link {
         margin-left: 15px;
