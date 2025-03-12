@@ -1,5 +1,12 @@
+---
+layout: custom
+---
 # Pragmatic AI - Core Principles
 *Version 0.0.1*
+
+Pragmatic AI applies battle-tested software development principles to the world of artificial intelligence. Instead of chasing the latest trends or implementing AI for its own sake, Pragmatic AI focuses on delivering systems that solve real problems effectively, securely, and ethically.
+
+---
 
 ### Value-Driven Development
 - Focus on delivering real business value rather than implementing AI for its own sake

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Pragmatic AI
+title: pragmatic ai
 email: jtushman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Pragmatic AI applies battle-tested software development principles to the world of artificial intelligence. Instead 
