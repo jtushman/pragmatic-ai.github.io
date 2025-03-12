@@ -61,4 +61,4 @@ Pragmatic AI applies battle-tested software development principles to the world 
 ---
 
 *Pragmatic AI was inspired by the Pragmatic Programming movement and extends those principles to the world of artificial 
-intelligence and machine learning.*
+intelligence.*
